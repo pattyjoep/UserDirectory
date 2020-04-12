@@ -105,7 +105,7 @@ class Directory extends Component {
           <thead className="thead-light">
             <tr>
               <th>Image</th>
-              <th><a href="#" onClick={this.orderChange}>Name</a></th>
+              <th>Name</th>
               <th>Phone</th>
               <th>Email</th>
               <th>DOB</th>
