@@ -7,15 +7,14 @@ import Wrapper from "./components/Wrapper";
 
 function App() {
   return (
-    <Router>
-      <div>
-        <Navbar />
+    <div>
+      <Navbar />
         <Wrapper>
-          <Route exact path="/" component={Directory} />
+          <Directory />
         </Wrapper>
-        <Footer />
-      </div>
-    </Router>
+      <Footer />
+    </div>
+   
   );
 }
 
